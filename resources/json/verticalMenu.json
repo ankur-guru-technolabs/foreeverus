@@ -1,0 +1,306 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "i18n": "Dashboard", 
+      "class": "waves-effect waves-cyan",
+      "icon": "space_dashboard",
+      "slug": "dashboard"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Users",
+      "i18n": "Users",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "user",
+      "icon": "people",
+      "tag": "2",
+      "tagcustom": "badge pill gethingd-color float-right mr-10",
+      "submenu": [
+        {
+          "url": "user/create",
+          "name": "Add User",
+          "i18n": "Add User",
+          "slug": "create"
+        },
+        {
+          "url": "user",
+          "name": "List",
+          "i18n": "List",
+          "slug": "user"
+        }
+      ]
+    },
+
+    {
+      "url": "javascript:void(0)",
+      "name": "Rooms",
+      "i18n": "Rooms",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "rooms",
+      "icon": "people",
+      "tag": "2",
+      "tagcustom": "badge pill gethingd-color float-right mr-10",
+      "submenu": [
+        {
+          "url": "room",
+          "name": "Add Room",
+          "i18n": "Add Room",
+          "slug": "room/create"
+        },
+        {
+          "url": "room_list",
+          "name": "Room List",
+          "i18n": "Room List",
+          "slug": "room_list"
+        }
+      ]
+    },
+	  
+    {
+      "url": "javascript:void(0)",
+      "name": "Match Profile",
+      "i18n": "Match Profile",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "match_profile",
+      "icon": "switch_account",
+      "tag": "1",
+      "tagcustom": "badge pill gethingd-color float-right mr-10",
+      "submenu": [
+        {
+          "url": "match_profile",
+          "name": "List",
+          "i18n": "List",
+          "slug": "match_profile"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Subscription Plan",
+      "i18n": "Subscription Plan",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "free_plan",
+      "icon": "Coins",
+      "tag": "2",
+      "tagcustom": "badge pill gethingd-color float-right mr-10",
+      "submenu": [
+        {
+          "url": "get_subscription_plan",
+          "name": "List",
+          "i18n": "List",
+          "slug": "get_subscription_plan"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Subscription Orders",
+      "i18n": "Subscription Orders",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "match_profile",
+      "icon": "collections_bookmark",
+      "tag": "1",
+      "tagcustom": "badge pill gethingd-color float-right mr-10",
+      "submenu": [
+        {
+          "url": "subscription_orders",
+          "name": "Orders",
+          "i18n": "Orders",
+          "slug": "subscription_orders"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Static Pages",
+      "i18n": "Static Pages",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "pages",
+      "icon": "pages",
+      "tag": "1",
+      "tagcustom": "badge pill gethingd-color float-right mr-10",
+      "submenu": [
+        {
+          "url": "privacy_policy",
+          "name": "Privacy Policy",
+          "i18n": "Privacy Policy",
+          "slug": "privacy_policy"
+        },
+        {
+          "url": "terms_and_conditions",
+          "name": "Terms And Conditions",
+          "i18n": "Terms And Conditions",
+          "slug": "terms_and_conditions"
+        },
+        {
+          "url": "disclaimer",
+          "name": "Disclaimer",
+          "i18n": "disclaimer",
+          "slug": "disclaimer"
+        },
+        {
+          "url": "privacy_and_cookie_policy",
+          "name": "Privacy And Cookie Policy",
+          "i18n": "Privacy And Cookie Policy",
+          "slug": "privacy_and_cookie_policy"
+        },
+        {
+          "url": "how_to_gethingd_proccesses_your_data",
+          "name": "Gethingd proccesses",
+          "i18n": "how_to_gethingd_proccesses_your_data",
+          "slug": "how_to_gethingd_proccesses_your_data"
+        },
+        {
+          "url": "community_guidelines",
+          "name": "Community Guidelines",
+          "i18n": "Community Guidelines",
+          "slug": "community_guidelines"
+        },
+        {
+          "url": "safety_tips",
+          "name": "Safety Tips",
+          "i18n": "safety_tips",
+          "slug": "safety_tips"
+        },
+        {
+          "url": "safety_center",
+          "name": "Safety Center",
+          "i18n": "Safety Center",
+          "slug": "safety_center"
+        },
+        {
+          "url": "privacy_preferences",
+          "name": "Privacy Preferences",
+          "i18n": "Privacy Preferences",
+          "slug": "privacy_preferences"
+        },
+        {
+          "url": "licence",
+          "name": "Licence",
+          "i18n": "Licence",
+          "slug": "licence"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Questions Management",
+      "i18n": "Questions Management",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "room_questions",
+      "icon": "collections_bookmark",
+      "submenu": [
+        {
+          "url": "create_questions",
+          "name": "Create Questions",
+          "i18n": "Create Questions",
+          "slug": "Questions"
+        },
+        {
+          "url": "questions_list",
+          "name": "Questions List",
+          "i18n": "Questions List",
+          "slug": "questions_list"
+        }
+      ]
+    },
+    
+    
+     {
+      "url": "javascript:void(0)",
+      "name": "Popup Management",
+      "i18n": "Popup Management",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "popup_mgt",
+      "icon": "collections_bookmark",
+      "submenu": [
+        {
+          "url": "add_popup",
+          "name": "Add Popup",
+          "i18n": "Add Popup",
+          "slug": "Popup"
+        },
+        {
+          "url": "popup_list",
+          "name": "Popup List",
+          "i18n": "Popup List",
+          "slug": "popup_list"
+        }
+      ]
+    },
+    
+    {
+      "url": "reports",
+      "name": "Users Reports",
+      "i18n": "Users Reports", 
+      "class": "waves-effect waves-cyan",
+      "icon": "report",
+      "slug": "reports"
+    },
+    {
+      "url": "supports",
+      "name": "Contact & Supports",
+      "i18n": "Contact & Supports", 
+      "class": "waves-effect waves-cyan",
+      "icon": "support",
+      "slug": "support"
+    },
+    {
+      "url": "suggestion",
+      "name": "Suggestion",
+      "i18n": "Suggestion", 
+      "class": "waves-effect waves-cyan",
+      "icon": "support",
+      "slug": "suggestion"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Products",
+      "i18n": "Products",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "products",
+      "icon": "Products",
+      "tagcustom": "badge pill gethingd-color float-right mr-10",
+      "submenu": [
+        {
+          "url": "product/create",
+          "name": "Add Product",
+          "i18n": "Add Product",
+          "slug": "create"
+        },
+        {
+          "url": "product",
+          "name": "List",
+          "i18n": "List",
+          "slug": "product"
+        }
+      ]
+    },
+    {
+      "url": "push_notification",
+      "name": "Push Notification",
+      "i18n": "Push Notification", 
+      "class": "waves-effect waves-cyan",
+      "icon": "notification_add",
+      "slug": "app-calendar"
+    },
+    {
+      "url": "default_settings",
+      "name": "User Settings",
+      "i18n": "User Settings",
+      "class": "waves-effect waves-cyan",
+      "icon": "manage_accounts",
+      "slug": "app-calendar"
+    },
+    {
+      "url": "settings",
+      "name": "Settings",
+      "i18n": "Settings",
+      "class": "waves-effect waves-cyan",
+      "icon": "settings",
+      "slug": "app-calendar"
+    }
+  ]
+}

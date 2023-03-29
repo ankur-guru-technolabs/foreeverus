@@ -1,0 +1,28 @@
+{
+    "host": "ftp.foreverusinlove.com",
+    "port": 21,
+    "type": "ftp",
+    "username": "development@foreverusinlove.com",
+    "password": "5vd%M7P0NG5J",
+    "remotePath": "/public_html/",
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}

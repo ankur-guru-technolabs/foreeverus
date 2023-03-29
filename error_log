@@ -1,0 +1,893 @@
+[30-Dec-2022 09:15:15 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:18:04 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:18:07 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:18:48 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:18:56 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:28:39 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:33:43 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:33:51 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:40:26 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:41:04 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:46:17 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:46:22 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:46:25 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:46:38 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:47:02 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:51:22 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:51:39 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:51:57 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:52:54 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:53:44 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:53:52 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 09:59:16 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:03:05 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:05:08 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:05:17 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:05:31 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:05:34 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:06:05 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:11:41 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:11:42 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:11:59 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:12:32 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:12:40 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:14:17 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:14:29 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:14:29 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:14:37 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:14:59 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:15:20 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:17:13 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:19:52 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:20:41 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:23:56 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:25:06 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:25:21 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:32:14 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:39:05 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:45:19 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:45:19 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 10:46:30 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 11:14:05 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 11:14:51 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[30-Dec-2022 11:15:04 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1459
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/home2/gurutsk8...', 1459)
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(444): include('/home2/gurutsk8...')
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#11 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#12 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#13 {main} in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 13
+[05-Jan-2023 04:29:39 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:32:55 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:37:19 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:37:33 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:40:12 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:40:21 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:42:41 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:42:43 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:43:18 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:47:14 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:51:13 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:51:35 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:55:18 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:55:49 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 04:58:09 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 05:00:10 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 05:04:42 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 05:10:11 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 05:16:51 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 05:16:54 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 05:26:57 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 05:30:24 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[05-Jan-2023 05:30:37 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/platform_check.php on line 24
+[09-Jan-2023 06:51:00 UTC] PHP Warning:  require(/home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/../symfony/polyfill-php81/bootstrap.php): Failed to open stream: No such file or directory in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/autoload_real.php on line 78
+[09-Jan-2023 06:51:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/../symfony/polyfill-php81/bootstrap.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/autoload_real.php:78
+Stack trace:
+#0 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/autoload_real.php(61): composerRequire7080ab540bfe840d5889d41713752a9c('23c18046f52bef3...', '/home2/gurutsk8...')
+#1 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/autoload.php(7): ComposerAutoloaderInit7080ab540bfe840d5889d41713752a9c::getLoader()
+#2 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/public/index.php(34): require('/home2/gurutsk8...')
+#3 /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/server.php(21): require_once('/home2/gurutsk8...')
+#4 {main}
+  thrown in /home2/gurutsk8/public_html/website/laravel/foreverus_in_love/vendor/composer/autoload_real.php on line 78
+[12-Jan-2023 02:58:30 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home3/oreverus/public_html/app-backend-foreverusinlove-com/vendor/composer/platform_check.php on line 24
+[12-Jan-2023 02:58:38 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home3/oreverus/public_html/app-backend-foreverusinlove-com/vendor/composer/platform_check.php on line 24
+[12-Jan-2023 02:58:47 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home3/oreverus/public_html/app-backend-foreverusinlove-com/vendor/composer/platform_check.php on line 24
+[12-Jan-2023 02:58:55 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home3/oreverus/public_html/app-backend-foreverusinlove-com/vendor/composer/platform_check.php on line 24
+[12-Jan-2023 02:58:58 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home3/oreverus/public_html/app-backend-foreverusinlove-com/vendor/composer/platform_check.php on line 24
+[12-Jan-2023 02:59:04 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home3/oreverus/public_html/app-backend-foreverusinlove-com/vendor/composer/platform_check.php on line 24
+[12-Jan-2023 03:04:08 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home3/oreverus/public_html/app-backend-foreverusinlove-com/vendor/composer/platform_check.php on line 24
+[12-Jan-2023 03:05:52 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home3/oreverus/public_html/app-backend-foreverusinlove-com/vendor/composer/platform_check.php on line 24
+[12-Jan-2023 03:06:18 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home3/oreverus/public_html/app-backend-foreverusinlove-com/vendor/composer/platform_check.php on line 24
+[12-Jan-2023 03:06:51 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home3/oreverus/public_html/app-backend-foreverusinlove-com/vendor/composer/platform_check.php on line 24
+[12-Jan-2023 03:07:26 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home3/oreverus/public_html/app-backend-foreverusinlove-com/vendor/composer/platform_check.php on line 24
+[13-Jan-2023 08:27:40 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400560128 bytes) in /home3/oreverus/public_html/app-backend-foreverusinlove-com/app/Http/Controllers/PopupController.php on line 81
+[13-Jan-2023 08:27:58 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400560128 bytes) in /home3/oreverus/public_html/app-backend-foreverusinlove-com/app/Http/Controllers/PopupController.php on line 81
