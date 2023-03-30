@@ -23,6 +23,21 @@ class Height extends Model
         'title',
     ];
 
+    public function getTitleAttribute($value)
+    {
+       
+      $parts = explode('.', $value);
+        if (count($parts) >= 2) {
+            list($feet, $inch) = $parts;
+            $result = $feet . "'" . $inch . "\"";
+        } else {
+            
+            $result = $value . "'0\"";
+        }
+        
+        return (str_replace("\\\"", "\"", $result));
+    }
+
     public function getHeightAttribute($value)
     {
         return number_format($value, 1);
