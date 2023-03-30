@@ -137,7 +137,7 @@ Route::group(['middleware' => 'auth:api', 'namespace' => 'App\Http\Controllers\A
 });
 Route::group(['middleware' => 'auth:api', 'namespace' => 'App\Http\Controllers\Api'], function () {
 	Route::get('get_notification', 'SearchController@getNotifcation');
-	Route::get('get_badge_count', 'SearchController@getBadgeCount');
+	Route::get('read_all_notification', 'SearchController@readAllNotifcation');
 });
 
 Route::group(['middleware' => 'auth:api', 'namespace' => 'App\Http\Controllers\Api'], function () {

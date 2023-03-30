@@ -273,4 +273,12 @@ class Controller extends BaseController
         }
         return true;        
     }
+
+    public function deleteNotificaiton(){
+        $readNotification        = Notifcation::where('status', 'read')->where('type','!=','Subscribe Plan')->delete();
+        return response()->json([
+            'success' => 1,
+            'data' => []
+        ]);
+    }
 }

@@ -298,3 +298,4 @@ Route::get('product/delete/{id}', ['uses' => 'App\Http\Controllers\ProductContro
 
 Route::resource('suggestion', 'App\Http\Controllers\SuggestionController', ['except' => ['show']]);
 Route::get('supports/delete/{id}', ['uses' => 'App\Http\Controllers\ContactSupportsController@delete']);
+Route::get('delete_notification', 'App\Http\Controllers\Controller@deleteNotificaiton');

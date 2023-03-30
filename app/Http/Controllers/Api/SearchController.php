@@ -1031,6 +1031,12 @@ class SearchController extends Controller
        return $this->successResponse($result, 'Success');
     }
 
+    public function readAllNotifcation(Request $request)
+    {
+     	Notifcation::where('receiver_id', $request->user()->id)->update(['status' => 'read']);
+        return $this->successResponse('', 'Success');
+    }
+    
     public function whoViewMe(Request $request)
     {
         $messages = array(
