@@ -275,7 +275,10 @@ class Controller extends BaseController
     }
 
     public function deleteNotificaiton(){
-        $readNotification        = Notifcation::where('status', 'read')->where('type','!=','Subscribe Plan')->delete();
+        $twoDaysAgo = new \DateTime('-2 days');
+        $date = $twoDaysAgo->format('Y-m-d');
+    
+        $readNotification        = Notifcation::where('status', 'read')->where('type','!=','Subscribe Plan')->whereDate('created_at', '<=', $date)->delete();
         return response()->json([
             'success' => 1,
             'data' => []
